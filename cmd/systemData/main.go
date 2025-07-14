@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/Anandhu3301/osStatChecker/internal/generator"
-	"github.com/Anandhu3301/osStatChecker/internal/info"
+	"github.com/Anandhu3301/osStatChecker/util"
 )
 
 // "fmt"
@@ -10,10 +10,7 @@ import (
 
 func main() {
     generator.DataGenerator();
-    ViewInternalImplementation();
+    util.ViewInternalImplementation();
 	
 }
 
-func ViewInternalImplementation() {
-	info.Get_Process_List();
-}
