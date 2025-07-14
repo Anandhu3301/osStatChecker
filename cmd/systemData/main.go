@@ -10,7 +10,7 @@ import (
 
 func main() {
     generator.DataGenerator();
-    util.ViewInternalImplementation();
+    util.Latest();
 	
 }
 
