@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/Anandhu3301/osStatChecker/internal/generator"
-	"github.com/Anandhu3301/osStatChecker/util"
+	"github.com/Anandhu3301/osStatChecker/pkg/newer"
 )
 
 // "fmt"
@@ -10,7 +10,6 @@ import (
 
 func main() {
     generator.DataGenerator();
-    util.Latest();
-	
+    newer.Latest();
 }
 
